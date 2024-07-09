@@ -80,7 +80,7 @@
 }
 #home::before{
     content: "";
-    background: url('../bg1.jpg.jpg') no-repeat center center/cover;
+    background: url('bg1.jpg.jpg') no-repeat center center/cover;
     position: absolute;
     height: 100%;
     top: 0px;
@@ -122,9 +122,7 @@
 #services .box p{
     font-family: 'Bree Serif', serif;
 }
-#services{}
-#services{}
-#services{}
+
 
 
 /* client Section */
@@ -136,7 +134,7 @@
 #client-section::before{
     content: "";
     position: absolute;
-    background: url('../bg.jpg');
+    background: url('bg.jpg');
     width: 100%;
     height: 50%;
     z-index: -1;
@@ -166,7 +164,7 @@
     height: 100%;
     z-index: -1;
     opacity: 0.7;
-    background: url('../contact.jpg') no-repeat center center/cover;
+    background: url('contact.jpg') no-repeat center center/cover;
 }
 #contact-box{
     display: flex;
